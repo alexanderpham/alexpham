@@ -1,0 +1,131 @@
+* {
+    z-index: 2;
+    max-width: 800px;
+    padding: 2rem;
+    }
+    
+    
+    .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    
+    .hero-content .highlight {
+    color: #00d26a;
+    font-weight: bold;
+    }
+    
+    
+    .hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+    }
+    
+    
+    .hero-content p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #bbb;
+    }
+    
+    
+    .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    }
+    
+    
+    .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    }
+    
+    
+    .btn.primary {
+    background: #00d26a;
+    color: #fff;
+    }
+    
+    
+    .btn.primary:hover {
+    background: #00b85a;
+    }
+    
+    
+    .btn.secondary {
+    background: #222;
+    color: #fff;
+    }
+    
+    
+    .btn.secondary:hover {
+    background: #333;
+    }
+    
+    
+    /* Sections */
+    section {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+    }
+    
+    
+    section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #00d26a;
+    border-left: 5px solid #00d26a;
+    padding-left: 10px;
+    }
+    
+    
+    .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    }
+    
+    
+    .skill, .project-card {
+    background: #111;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+    }
+    
+    
+    .skill:hover, .project-card:hover {
+    transform: translateY(-7px);
+    }
+    
+    
+    footer {
+    background: #0a0a0a;
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    }
+    
+    
+    [data-animate] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+    }
+    
+    
+    [data-animate].visible {
+    opacity: 1;
+    transform: translateY(0);
+    }
